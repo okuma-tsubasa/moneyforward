@@ -15804,19 +15804,6 @@ header .header-container {
     padding: 15px 14px 17px 8px
 }
 
-header .menu-content-toggle {
-    display: block;
-    width: 20px;
-    height: 20px;
-    background: url(../images/icon_menu-d93a36bfbd31b0a776e6aa0efdcbb5c129ee49d8e6d0cf6183e923db4f05e142.png) no-repeat;
-    background-size: 20px auto
-}
-
-header .menu-content-toggle.collapsed {
-    background: url(../images/icon_menu-d93a36bfbd31b0a776e6aa0efdcbb5c129ee49d8e6d0cf6183e923db4f05e142.png) no-repeat;
-    background-size: 20px auto
-}
-
 header .menu-container {
     position: absolute;
     z-index: 1;
@@ -15887,38 +15874,6 @@ header .menu-container ul li.coming-soon span::before {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 24px auto
-}
-
-header .menu-container ul .menu-01 a::before,header .menu-container ul .menu-01 span::before {
-    background-image: url(/assets/authenticated_as_employee/access_from_mobile_device/common/menu/menu_icon_01-a59ed9406550334fbc1a838013d004c4f9c9b6414c5d16d1a710966ec3acc379.png)
-}
-
-header .menu-container ul .menu-02 a::before,header .menu-container ul .menu-02 span::before {
-    background-image: url(/assets/authenticated_as_employee/access_from_mobile_device/common/menu/menu_icon_02-ad5ec9ca9e7b9ee27fc97015f0db47ede08cb966645ebc7f3cb59168dffc65b7.png)
-}
-
-header .menu-container ul .menu-03 a::before,header .menu-container ul .menu-03 span::before {
-    background-image: url(/assets/authenticated_as_employee/access_from_mobile_device/common/menu/menu_icon_03-8db406b25f7af4940750868f083dcba6e8238c50de41f40430603957c024ce79.png)
-}
-
-header .menu-container ul .menu-04 a::before,header .menu-container ul .menu-04 span::before {
-    background-image: url(/assets/authenticated_as_employee/access_from_mobile_device/common/menu/menu_icon_04-3b398a5070705a8f6ec045674c1fdb59f09eb533422cf25a5734ffea570c90fc.png)
-}
-
-header .menu-container ul .menu-05 a::before,header .menu-container ul .menu-05 span::before {
-    background-image: url(/assets/authenticated_as_employee/access_from_mobile_device/common/menu/menu_icon_05-80eab4c86d4becbf4715587abb6cde7b632bb060ef45aafe719da1b4f611ec6f.png)
-}
-
-header .menu-container ul .menu-06 a::before,header .menu-container ul .menu-06 span::before {
-    background-image: url(/assets/authenticated_as_employee/access_from_mobile_device/common/menu/menu_icon_06-3a16e3d0c38d64b614a5839717bca5c317421d87578c523caa21092316627d7f.png)
-}
-
-header .menu-container ul .menu-07 a::before,header .menu-container ul .menu-07 span::before {
-    background-image: url(/assets/authenticated_as_employee/access_from_mobile_device/common/menu/menu_icon_07-d994b5c194a48b3a195d14ce5c7bf5df2f3aaf1612e1cba5e3c97fca7830904c.png)
-}
-
-header .menu-container ul .menu-08 a::before,header .menu-container ul .menu-08 span::before {
-    background-image: url(/assets/authenticated_as_employee/access_from_mobile_device/common/menu/menu_icon_08-d2cb9d7930d0704650da9600a5874911e05bc47af4b743f5af86f7b0a48b13a4.png)
 }
 
 header .sign-out-container {

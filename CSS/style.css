@@ -7598,10 +7598,6 @@ textarea.form-control-lg {
     border-color: rgba(0,0,0,0.1)
 }
 
-.navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
-}
-
 .navbar-light .navbar-text {
     color: rgba(0,0,0,0.55)
 }
@@ -7637,10 +7633,6 @@ textarea.form-control-lg {
 .navbar-dark .navbar-toggler {
     color: rgba(255,255,255,0.55);
     border-color: rgba(255,255,255,0.1)
-}
-
-.navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
 
 .navbar-dark .navbar-text {
@@ -9421,23 +9413,6 @@ textarea.form-control-lg {
 
 .carousel-control-next {
     right: 0
-}
-
-.carousel-control-prev-icon,.carousel-control-next-icon {
-    display: inline-block;
-    width: 2rem;
-    height: 2rem;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: 100% 100%
-}
-
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e")
-}
-
-.carousel-control-next-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")
 }
 
 .carousel-indicators {
@@ -15833,12 +15808,12 @@ header .menu-content-toggle {
     display: block;
     width: 20px;
     height: 20px;
-    background: url(/assets/authenticated_as_employee/access_from_mobile_device/common/menu/icon_menu_close-aff5b7c701b436f65a6df758d829cc193bef0ccf35fd52c4ee54c0d4630ef701.png) no-repeat;
+    background: url(../images/icon_menu-d93a36bfbd31b0a776e6aa0efdcbb5c129ee49d8e6d0cf6183e923db4f05e142.png) no-repeat;
     background-size: 20px auto
 }
 
 header .menu-content-toggle.collapsed {
-    background: url(/assets/authenticated_as_employee/access_from_mobile_device/common/menu/icon_menu-d93a36bfbd31b0a776e6aa0efdcbb5c129ee49d8e6d0cf6183e923db4f05e142.png) no-repeat;
+    background: url(../images/icon_menu-d93a36bfbd31b0a776e6aa0efdcbb5c129ee49d8e6d0cf6183e923db4f05e142.png) no-repeat;
     background-size: 20px auto
 }
 

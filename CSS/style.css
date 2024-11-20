@@ -15682,7 +15682,7 @@ label.error:before,.error:before {
     height: 10px;
     margin: auto 0;
     content: '';
-    background: url(/assets/authenticated_as_employee/access_from_mobile_device/common/icons/icon_arrow-578e2d82f415046eb4e9a409b3354a922a4915e3aef2fe4628c796604473f469.png) no-repeat right center;
+    background: url(../images/icon_arrow-578e2d82f415046eb4e9a409b3354a922a4915e3aef2fe4628c796604473f469.png) no-repeat right center;
     background-size: 21px auto
 }
 
@@ -15761,7 +15761,7 @@ label.error:before,.error:before {
     height: 10px;
     margin: auto 0;
     content: '';
-    background: url(/assets/authenticated_as_employee/access_from_mobile_device/common/icons/icon_arrow-578e2d82f415046eb4e9a409b3354a922a4915e3aef2fe4628c796604473f469.png) no-repeat right center;
+    background: url(../images/icon_arrow-578e2d82f415046eb4e9a409b3354a922a4915e3aef2fe4628c796604473f469.png) no-repeat right center;
     background-size: 21px auto
 }
 

@@ -1,6 +1,168 @@
 <!DOCTYPE html>
-<html lang="ja">
-    <h1>
-        202412テスト
-    </h1>
-</html>
+<!-- saved from url=(0082)https://payroll.moneyforward.com/my/reports/periods/C8gozwI-XjddhjjwVVoQsw/payslip -->
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- dataLayer -->
+    <script async="" src="./202412_files/clarity.js.ダウンロード"></script><script async="" src="./202412_files/136025135"></script><script type="text/javascript" async="" src="./202412_files/bat.js.ダウンロード"></script><script type="text/javascript" async="" src="./202412_files/destination"></script><script src="./202412_files/616473498936556" async=""></script><script async="" src="./202412_files/fbevents.js.ダウンロード"></script><script type="text/javascript" async="" src="./202412_files/insight.min.js.ダウンロード"></script><script type="text/javascript" async="" src="./202412_files/destination(1)"></script><script type="text/javascript" async="" src="./202412_files/js"></script><script type="text/javascript" async="" src="./202412_files/gtm.js.ダウンロード"></script><script type="text/javascript" async="" src="./202412_files/gtm(1).js.ダウンロード"></script><script type="text/javascript" async="" src="./202412_files/munchkin.js.ダウンロード"></script><script async="" src="./202412_files/gtm(2).js.ダウンロード"></script><script async="" src="./202412_files/gtm(3).js.ダウンロード"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({"user_id":"377549181825","office_identification_code":"86053055","office_type":"2","is_social_insurance_used":"false","office_created_at":1548832751,"finalization_count":71,"latest_finalized_at":1731376209,"member_amount":31,"attendance_linkage":"JOBCAN","labor_linkage":"","pa_office_is_corporate":"true","pa_office_is_unpaid":"false","is_related_support_group":"false","is_erp_premium":"true","single_plan_contract":"","support_group_plan":""});
+    </script>
+    <!-- End dataLayer -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MSM3QVZ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NMKMWHV');</script>
+  <!-- End Google Tag Manager -->
+
+<title>マネーフォワード クラウド給与</title>
+<script>var _rollbarConfig = {"accessToken":"ba26c454c5744ce7bc91626ce2ee877b","captureUncaught":true,"uncaughtErrorLevel":"error","reportLevel":"error","ignoredMessages":[],"hostSafeList":["moneyforward.com","musubu.co.in","ebisubook.co.in","localhost"],"payload":{"environment":"prod","person":{"id":632329,"username":null,"email":null}},"checkIgnore":// rollbar.rbで読み込みさせるためのjsファイルです。
+// checkIgnoreを記載するためのファイルです。
+// コンパイラを噛ませていないのでES5を意識して書いたほうが無難です。
+// エラーを出したい場合はfalseをエラーをスキップしたいときはtrueを返してください。
+// https://moneyforward.kibe.la/notes/206472
+function checkIgnore (isUncaught, args, payload) {
+    var self = this;
+
+    //------------------------
+    //- functions
+    //------------------------
+    self.init = function() {
+
+        var frames = payload.body.trace.frames;
+
+        // 手がかりが全くないエラーは通知しない
+        if(self.isUnknownError(frames)) return true;
+
+        // 未知のSchemaが存在する場合は通知しない
+        if(self.isInjectError(frames)) return true;
+
+        // 外部スクリプトのケースは通知しない
+        if(self.containsIgnoreFilename(frames)) return true;
+
+        // 例外以外のエラーは通知する
+        if (!isUncaught) return false;
+
+        // チェックに引っかからなかったものは通知する
+        return false;
+    }
+
+    // 手がかりが全くないエラーのケース
+    self.isUnknownError = function (frames) {
+        for (var i = 0; i < frames.length; i++) {
+            var frame = frames[i];
+            if (frame.filename === '(unknown)' || frame.filename === 'Unknown script code') {
+                continue;
+            }
+            if (frame.method === '[anonymous]' &&
+                (frame.lineno === null || frame.lineno === -1)) {
+                continue;
+            }
+            return false;
+        }
+        return true;
+    };
+
+    // 未知の Schema が存在するケース
+    self.isInjectError = function (frames) {
+        var validSchemata = [
+            'http:', 'https:',
+        ];
+        for (var i = 0; i < frames.length; i++) {
+            var m = frames[i].filename.match(/^[^/:]+:/)
+            if (m && validSchemata.indexOf(m[0]) < 0) {
+                return true;
+            }
+        }
+        return false;
+    };
+
+    // 外部スクリプトのケース
+    self.containsIgnoreFilename = function (frames) {
+        var ignoreFilenames = [
+            'https://www.googletagmanager.com',
+        ];
+
+        var filenames = frames.map(function(frame) { return frame.filename })
+        for (var i = 0; i < ignoreFilenames.length; i++) {
+            var ignoreFilename = ignoreFilenames[i]
+
+            return filenames.some(function(filename) {
+                // babelの恩恵を受けていないため一応indexOfを使用
+                return filename.indexOf(ignoreFilename) >= 0
+            })
+        }
+        return false;
+    };
+
+    return self.init();
+}
+,"scrubTelemetryInputs":true};</script>
+<script>!function(r){var e={};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,e,n){o.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:n})},o.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return o.d(e,"a",e),e},o.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},o.p="",o(o.s=0)}([function(r,e,o){"use strict";var n=o(1),t=o(5);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdn.rollbar.com/rollbarjs/refs/tags/v2.26.1/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){"use strict";var n=o(2),t=o(3);function a(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}var l=0;function i(r,e){this.options=r,this._rollbarOldOnError=null;var o=l++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}var s=o(4),d=function(r,e){return new i(r,e)},c=function(r){return new s(d,r)};function u(r){return a((function(){var e=this,o=Array.prototype.slice.call(arguments,0),n={shim:e,method:r,args:o,ts:new Date};window._rollbarShims[this.shimId()].messages.push(n)}))}i.prototype.loadFull=function(r,e,o,n,t){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],d=s.parentNode;i.crossOrigin="",i.src=n.rollbarJsUrl,o||(i.async=!0),i.onload=i.onreadystatechange=a((function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{d.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,a,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(a=n.args||[],i=0;i<a.length;++i)if("function"==typeof(l=a[i])){l(e);break}}"function"==typeof t&&t(e)}()}})),d.insertBefore(i,s)},i.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var p="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),f=0;f<p.length;++f)i.prototype[p[f]]=u(p[f]);r.exports={setupShim:function(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var l=new c(e);return a((function(){e.captureUncaught&&(l._rollbarOldOnError=r.onerror,n.captureUncaughtExceptions(r,l,!0),e.wrapGlobalEventHandlers&&t(r,l,!0)),e.captureUnhandledRejections&&n.captureUnhandledRejections(r,l,!0);var a=e.autoInstrument;return!1!==e.enabled&&(void 0===a||!0===a||function(r){return!("object"!=typeof r||void 0!==r.page&&!r.page)}(a))&&r.addEventListener&&(r.addEventListener("load",l.captureLoad.bind(l)),r.addEventListener("DOMContentLoaded",l.captureDomContentLoaded.bind(l))),r[o]=l,l}))()}},Rollbar:c}},function(r,e,o){"use strict";function n(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=e.handleUncaughtException.apply(e,n);o&&o.apply(r,n),"anonymous"===t&&(e.anonymousErrorsPending+=1)}r.exports={captureUncaughtExceptions:function(r,e,o){if(r){var t;if("function"==typeof e._rollbarOldOnError)t=e._rollbarOldOnError;else if(r.onerror){for(t=r.onerror;t._rollbarOldOnError;)t=t._rollbarOldOnError;e._rollbarOldOnError=t}e.handleAnonymousErrors();var a=function(){var o=Array.prototype.slice.call(arguments,0);n(r,e,t,o)};o&&(a._rollbarOldOnError=t),r.onerror=a}},captureUnhandledRejections:function(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}}},function(r,e,o){"use strict";function n(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports=function(r,e,o){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&n(e,r[a].prototype,o)}}},function(r,e,o){"use strict";function n(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}(n.prototype)}n.prototype._swapAndProcessMessages=function(r,e){var o,n,t;for(this.impl=r(this.options);o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=n},function(r,e,o){"use strict";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var o,n,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);</script><meta content="lTFxkOdaXWqnwfFKJPYj6GTHbcywLLtn7fcwjtu4Gr8" name="google-site-verification"><link rel="apple-touch-icon" href="https://assets-payroll.moneyforward.com/images/apple-touch-icon.png" sizes="180x180"><link rel="icon" type="image/png" href="https://assets-payroll.moneyforward.com/images/favicon-32x32.png" sizes="32x32"><link rel="icon" type="image/png" href="https://assets-payroll.moneyforward.com/images/favicon-16x16.png" sizes="16x16"><link rel="manifest" href="https://assets-payroll.moneyforward.com/site.webmanifest"><link rel="mask-icon" href="https://assets-payroll.moneyforward.com/images/safari-pinned-tab.svg" color="#0054ac"><meta content="#0054ac" name="msapplication-TileColor"><meta content="#ffffff" name="theme-color"><link rel="apple-touch-icon" type="image/png" href="https://assets-payroll.moneyforward.com/assets/apple_touch_icon-f22589117acc906b648d4b37a647a70c168e811e01e1e02281b33b7dc7b71eaa.png"><link rel="stylesheet" href="./202412_files/access_from_mobile_device-8a927d367bb68a6f3ff66cacb4f7c4baf2c4e58bf7368aecb2cb11b696826104.css" media="all"><script src="./202412_files/access_from_mobile_device-421accfc320957868281f2fc8f18a068eb59586d0497309e3c6387a55b9de697.js.ダウンロード"></script><meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="2utbN2X3NJ6SrQdP1pdTuXjs-dPpMspBPq1gcSjCLJOdbZ4ITMaiZdIz79s1wmM-e7JrCmRCemxKiQETSYI5gQ"><meta content="width=device-width, initial-scale = 1, minimum-scale = 1, maximum-scale = 1, user-scalable = no" name="viewport"><meta content="telephone=no" name="format-detection"><script type="text/javascript" async="" src="./202412_files/f.txt"></script><script type="text/javascript" src="./202412_files/f(1).txt"></script><script type="text/javascript" async="" src="./202412_files/munchkin(1).js.ダウンロード"></script><script src="./202412_files/136025135.js.ダウンロード" type="text/javascript" async="" data-ueto="ueto_1114f78dc2"></script><script type="text/javascript" async="" src="./202412_files/f(2).txt"></script></head><body id="page-payslips"><!-- Google Tag Manager (noscript) -->
+<!--
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MSM3QVZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+-->
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Tag Manager (noscript) -->
+<!--
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMKMWHV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+-->
+<!-- End Google Tag Manager (noscript) -->
+<header><div class="header-container"><a href="https://payroll.moneyforward.com/"><img width="210px" src="./202412_files/logo-aa541b895cc930a936ad0c22496c9f6a5a873dfbaf6eb8a8c23e90546da3b508.png"></a><a class="menu-content-toggle collapsed" data-bs-toggle="collapse" href="https://payroll.moneyforward.com/my/reports/periods/C8gozwI-XjddhjjwVVoQsw/payslip#menu-content"></a></div><div class="menu-container collapse fade" id="menu-content"><ul><li class="menu-02"><a href="https://payroll.moneyforward.com/my/reports/payslips">給与明細を見る</a></li><li class="menu-07"><a href="https://payroll.moneyforward.com/my/reports/bonus_slips">賞与明細を見る</a></li><li class="menu-08"><a href="https://payroll.moneyforward.com/my/reports/withholding_slips">源泉徴収票を見る</a></li></ul><div class="sign-out-container"><a rel="nofollow" data-method="delete" href="https://payroll.moneyforward.com/session">ログアウト</a></div></div></header><div class="pa-mobile-container equal-distance-container align-items-center"><div class="pa-mobile-title">11月度給与<span>（11/15支給）</span></div><a href="https://payroll.moneyforward.com/my/reports/payslips">他の月を見る</a></div><div class="pa-mobile-title-label">差引合計</div><div class="pa-mobile-container-min pa-mobile-border-top"><a class="pa-mobile-content-link-container collapsed" data-bs-toggle="collapse" href="https://payroll.moneyforward.com/my/reports/periods/C8gozwI-XjddhjjwVVoQsw/payslip#balances-content"><div class="pa-mobile-strong-color pa-mobile-content-link"></div><div class="pa-mobile-total-amount-container pa-mobile-contents-indent-02"><div class="pa-mobile-total-amount-name">差引支給合計</div><div class="net-income-amount pa-mobile-decoration-yen mf-mb5">226,533</div></div></a><div class="collapse pa-mobile-contents-indent-03" id="balances-content"><div class="pa-mobile-item-container"><div class="item">振込支給額</div><div class="amount pa-mobile-decoration-yen">226,533</div></div></div></div><div class="pa-mobile-title-label">内訳</div><div class="pa-mobile-container-min"><div class="pa-mobile-contents-indent-01"><a class="pa-mobile-content-link-container collapsed" data-bs-toggle="collapse" href="https://payroll.moneyforward.com/my/reports/periods/C8gozwI-XjddhjjwVVoQsw/payslip#payment-detail-content"><strong class="pa-mobile-content-link">支給額</strong><div class="pa-mobile-total-amount-container pa-mobile-contents-indent-02"><div class="pa-mobile-total-amount-name">合計</div><div class="pa-mobile-total-amount pa-mobile-decoration-yen mf-mb5">274,747</div></div></a></div><div class="collapse pa-mobile-contents-indent-03" id="payment-detail-content"><div class="pa-mobile-item-container"><div class="item">基本給</div><div class="amount pa-mobile-decoration-yen">242,000</div></div><div class="pa-mobile-item-container"><div class="item">役職手当</div><div class="amount pa-mobile-decoration-yen">10,000</div></div><div class="pa-mobile-item-container"><div class="item">残業手当</div><div class="amount pa-mobile-decoration-yen">15,106</div></div><div class="pa-mobile-item-container"><div class="item">深夜残業手当</div><div class="amount pa-mobile-decoration-yen">291</div></div><div class="pa-mobile-item-container"><div class="item">通勤手当/非課</div><div class="amount pa-mobile-decoration-yen">7,350</div></div></div></div><div class="pa-mobile-container-min"><div class="pa-mobile-contents-indent-01"><a class="pa-mobile-content-link-container collapsed" data-bs-toggle="collapse" href="https://payroll.moneyforward.com/my/reports/periods/C8gozwI-XjddhjjwVVoQsw/payslip#deduction-detail-content"><strong class="pa-mobile-content-link">控除額</strong><div class="pa-mobile-total-amount-container pa-mobile-contents-indent-02"><div class="pa-mobile-total-amount-name">合計</div><div class="pa-mobile-total-amount pa-mobile-decoration-yen mf-mb5">48,214</div></div></a></div><div class="collapse pa-mobile-contents-indent-03" id="deduction-detail-content"><div class="pa-mobile-item-container"><div class="item">健康保険料</div><div class="amount pa-mobile-decoration-yen">12,376</div></div><div class="pa-mobile-item-container"><div class="item">厚生年金保険料</div><div class="amount pa-mobile-decoration-yen">23,790</div></div><div class="pa-mobile-item-container"><div class="item">雇用保険料</div><div class="amount pa-mobile-decoration-yen">1,648</div></div><div class="pa-mobile-item-container"><div class="item">所得税</div><div class="amount pa-mobile-decoration-yen">0</div></div><div class="pa-mobile-item-container"><div class="item">・控除前税額</div><div class="amount pa-mobile-decoration-yen">5,780</div></div><div class="pa-mobile-item-container"><div class="item">・定額減税</div><div class="amount pa-mobile-decoration-yen">-5,780</div></div><div class="pa-mobile-item-container"><div class="item">住民税</div><div class="amount pa-mobile-decoration-yen">10,400</div></div></div></div><div class="pa-mobile-title-label">勤怠</div><div class="pa-mobile-container-min"><div class="pa-mobile-contents-indent-01"><a class="pa-mobile-content-link-container collapsed" data-bs-toggle="collapse" href="https://payroll.moneyforward.com/my/reports/periods/C8gozwI-XjddhjjwVVoQsw/payslip#attendance-detail-content"><div class="pa-mobile-content-link attendance-toggle-height"></div></a></div><div class="collapse pa-mobile-contents-indent-03" id="attendance-detail-content"><div class="pa-mobile-item-container border-top-none"><div class="item">出勤日数</div><div class="amount">18.0日</div></div><div class="pa-mobile-item-container border-top-none"><div class="item">所定内出勤時間</div><div class="amount">144.00時間</div></div><div class="pa-mobile-item-container border-top-none"><div class="item">残業時間</div><div class="amount">7.80時間</div></div><div class="pa-mobile-item-container border-top-none"><div class="item">深夜残業時間</div><div class="amount">0.75時間</div></div><div class="pa-mobile-item-container border-top-none"><div class="item">有休残日数</div><div class="amount">19.5日</div></div><div class="pa-mobile-item-container border-top-none"><div class="item">有休残時間数</div><div class="amount">0.00時間</div></div></div></div><div class="pa-mobile-title-label">本年累計</div><div class="pa-mobile-container-min"><div class="pa-mobile-contents-indent-01"><a class="pa-mobile-content-link-container collapsed" data-bs-toggle="collapse" href="https://payroll.moneyforward.com/my/reports/periods/C8gozwI-XjddhjjwVVoQsw/payslip#cumulative-amount-content"><div class="pa-mobile-content-link attendance-toggle-height"></div></a></div><div class="collapse pa-mobile-contents-indent-02" id="cumulative-amount-content"><div class="pa-mobile-item-container border-top-none"><div class="item">課税支給額</div><div class="amount pa-mobile-decoration-yen">2,605,253</div></div><div class="pa-mobile-item-container border-top-none"><div class="item">社会保険料</div><div class="amount pa-mobile-decoration-yen">384,952</div></div><div class="pa-mobile-item-container border-top-none"><div class="item">所得税</div><div class="amount pa-mobile-decoration-yen">25,330</div></div></div></div><div class="pa-mobile-title-label">その他</div><div class="pa-mobile-container-min"><div class="pa-mobile-contents-indent-01"><a class="pa-mobile-content-link-container collapsed" data-bs-toggle="collapse" href="https://payroll.moneyforward.com/my/reports/periods/C8gozwI-XjddhjjwVVoQsw/payslip#others-content"><div class="pa-mobile-content-link attendance-toggle-height"></div></a></div><div class="collapse pa-mobile-contents-indent-02" id="others-content"></div></div><div class="pa-mobile-title-label">備考</div><p>【役職手当】主任（グループリーダー）／10,000円
+<br>【通勤手当詳細】・うるま出社2日（片道22.3㎞ × 往復50円 × 出社2日 ＝ 2,230円）
+<br>　　　　　　　　・松尾出社16日（片道6.4㎞ × 往復50円 × 出社16日 ＝ 5,120円）</p><script>$.ajax({
+  url: '//munchkin.marketo.net/munchkin.js',
+  dataType: 'script',
+  cache: true,
+  success: function() {
+    // marketo_munchkin_alt_idには旧環境のIDが入り、完全移行後空になる
+    // 完全移行までは旧環境と新環境どちらにもトラッキング情報を送信する
+    if ('') {
+      Munchkin.init('358-BQV-348', {asyncOnly: true, altIds: ['']});
+    } else {
+      Munchkin.init('358-BQV-348', {asyncOnly: true, altIds: []});
+    }
+
+    // Munchkinを使うときはmarketo.runを上書きしましょう
+    marketo.run();
+  }
+});</script><script type="text/javascript" id="" charset="">(function(){var b="mfc_biz_visitor_id",c=31536E6,a=new Date,d=a.getTime();a.setTime(d+c);a=a.toUTCString();document.cookie=b+"\x3d3098_1732070393062; SameSite\x3dNone; Secure; expires\x3d"+a+"; path\x3d/; domain\x3dmoneyforward.com"})();</script><script type="text/javascript" id="" charset="">(function(){var c="mfc_product_visitor",b=google_tag_manager["rm"]["31417711"](43);if(-1!==document.cookie.search(c)||b){b="true";var d=31536E6,a=new Date,e=a.getTime();a.setTime(e+d);a=a.toUTCString();document.cookie=c+"\x3d"+b+"; SameSite\x3dNone; Secure; expires\x3d"+a+"; path\x3d/; domain\x3dmoneyforward.com"}})();</script><script type="text/javascript" id="" charset="">(function(){var c="mfc_paid_product_visitor",a=new URL(window.location.href);a=a.searchParams.get("state");if("paid_premium_contract_started"===a||-1!==document.cookie.search(c)){a="true";var d=31536E6,b=new Date,e=b.getTime();b.setTime(e+d);b=b.toUTCString();document.cookie=c+"\x3d"+a+"; SameSite\x3dNone; Secure; expires\x3d"+b+"; path\x3d/; domain\x3dmoneyforward.com"}})();</script>
+<script type="text/javascript" id="" charset="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","616473498936556");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=616473498936556&amp;ev=PageView&amp;noscript=1"></noscript>
+<div style="display: none; visibility: hidden;"><script async="null" src="./202412_files/ytag.js.ダウンロード"></script>
+<script>window.yjDataLayer=window.yjDataLayer||[];function ytag(){yjDataLayer.push(arguments)}ytag({type:"ycl_cookie",config:{ycl_use_non_cookie_storage:!0}});</script>
+</div>
+<script type="text/javascript" id="" charset="">!function(b){if(!window[b]){var a=window[b]=function(){var c=[].slice.call(arguments);return a.x?a.x.apply(0,c):a.q.push(c)};a.q=[];a.i=Date.now();a.allow=function(){a.o="allow"};a.deny=function(){a.o="deny"}}}("krt");</script>
+
+<script type="text/javascript" id="" charset="">!function(m,g,d){var k=this&&this.__spreadArray||function(b,a,c){if(c||2===arguments.length)for(var h,e=0,n=a.length;e<n;e++)!h&&e in a||(h||(h=Array.prototype.slice.call(a,0,e)),h[e]=a[e]);return b.concat(h||Array.prototype.slice.call(a))};d[g]&&(d[g].stop(),console.warn("[krt:compat] detect old tracker and remove it"),delete d[g]);var f=d[g]||(d[g]=[]),l=function(){for(var b=[],a=0;a<arguments.length;a++)b[a]=arguments[a];return d[m].apply(d,b)};"start stop action event goal chat admin group alias ready form click submit cmd emit on send css js style option get set collection".split(" ").map(function(b){f[b]=
+function(){for(var a=[],c=0;c<arguments.length;c++)a[c]=arguments[c];return console.error.apply(console,k(["[krt:compat] not implmeneted",b],a,!1))}});f.track=function(){for(var b=[],a=0;a<arguments.length;a++)b[a]=arguments[a];if(0!==b.length)return b[1]||(b[1]={}),b[1]._system||(b[1]._system={}),b[1]._system.compatible_tag=!0,l.apply(void 0,k(["send"],b,!1))};f.user=function(){for(var b=[],a=0;a<arguments.length;a++)b[a]=arguments[a];return b[0]||(b[0]={}),b[0]._system||(b[0]._system={}),b[0]._system.compatible_tag=
+!0,l.apply(void 0,k(["send","identify"],b,!1))};["buy","view","page"].map(function(b){return f[b]=function(){for(var a=[],c=0;c<arguments.length;c++)a[c]=arguments[c];return a[0]||(a[0]={}),a[0]._system||(a[0]._system={}),a[0]._system.compatible_tag=!0,l.apply(void 0,k(["send",b],a,!1))}});f.link=function(b,a){(b=document.querySelector(b))&&(a||(a={}),a._system||(a._system={}),a._system.compatible_tag=!0,a.href=b.getAttribute("href"),a.event_name||(a.event_name="link"),b.addEventListener("click",
+function(){return d[m]("send",a.event_name,a)},!0))};f.api_key="ee170c37eb3d2958cf82c4a1239a2a47"}("krt","tracker",window);</script>
+
+<iframe height="0" width="0" style="display: none; visibility: hidden;" src="./202412_files/saved_resource.html"></iframe><script id="" text="" charset="" type="text/javascript" src="./202412_files/edge.js.ダウンロード"></script><div style="display: none; visibility: hidden;">
+<script type="text/javascript">var yahoo_ss_retargeting_id=1001120243,yahoo_sstag_custom_params=window.yahoo_sstag_params,yahoo_ss_retargeting=!0;</script>
+<script type="text/javascript" src="./202412_files/conversion.js.ダウンロード"></script>
+<noscript></noscript></div><iframe allow="join-ad-interest-group" data-tagging-id="AW-658009491" data-load-time="1732073796860" height="0" width="0" src="./202412_files/658009491.html" style="display: none; visibility: hidden;"></iframe><div style="display: none; visibility: hidden;">
+<script type="text/javascript" language="javascript">var yahoo_retargeting_id="E7LRA9U43V",yahoo_retargeting_label="",yahoo_retargeting_page_type="",yahoo_retargeting_items=[{item_id:"",category_id:"",price:"",quantity:""}];</script>
+<script type="text/javascript" language="javascript" src="./202412_files/s_retargeting.js.ダウンロード"></script>
+</div>
+
+<script type="text/javascript" id="" charset="">dataLayer.push({event:"karteViewEventLoaded"});</script>
+<script type="text/javascript" id="" charset="">try{krt("send","identify",{user_id:"377549181825",office_identification_code:"86053055",b2k_identification_code:"377549181825_86053055",pa_user_identification_code:"377549181825",pa_office_identification_code:"86053055",pa_is_social_insurance_used:"false",pa_office_created_date:google_tag_manager["rm"]["31251897"](60),pa_member_amount:google_tag_manager["rm"]["31251897"](61),pa_attendance_linkage:"JOBCAN",pa_labor_linkage:"",
+pa_finalization_count:google_tag_manager["rm"]["31251897"](62),pa_latest_finalized_date:google_tag_manager["rm"]["31251897"](63),pa_office_is_corporate:"true",pa_office_is_unpaid:"false",pa_is_related_support_group:"false",pa_is_erp_premium:"true",pa_single_plan_contract:"",pa_support_group_plan:""})}catch(a){"krt"in window?krt("send","_error",{message:a.message}):console.warn("tracker was not loaded")};</script><script type="text/javascript" id="" charset="">(function(){function b(){!1===c&&(c=!0,Munchkin.init("358-BQV-348",{asyncOnly:!0}))}var c=!1,a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="//munchkin.marketo.net/munchkin.js";a.onreadystatechange=function(){"complete"!=this.readyState&&"loaded"!=this.readyState||b()};a.onload=b;document.getElementsByTagName("head")[0].appendChild(a)})();</script><div style="display: none; visibility: hidden;"><script async="null" src="./202412_files/ytag.js.ダウンロード"></script>
+<script>window.yjDataLayer=window.yjDataLayer||[];function ytag(){yjDataLayer.push(arguments)}ytag({type:"ycl_cookie",config:{ycl_use_non_cookie_storage:!0}});</script>
+</div><div style="display: none; visibility: hidden;"><script type="text/javascript" language="javascript">var yahoo_retargeting_id="5H3AVYYUVY",yahoo_retargeting_label="",yahoo_retargeting_page_type="",yahoo_retargeting_items=[{item_id:"",category_id:"",price:"",quantity:""}];</script>
+<script type="text/javascript" language="javascript" src="./202412_files/s_retargeting.js.ダウンロード"></script></div><iframe allow="join-ad-interest-group" data-tagging-id="AW-811129531" data-load-time="1732073797429" height="0" width="0" src="./202412_files/811129531.html" style="display: none; visibility: hidden;"></iframe><div id="batBeacon629969946344" style="width: 0px; height: 0px; display: none; visibility: hidden;"><img id="batBeacon150044950476" width="0" height="0" alt="" src="./202412_files/0" style="width: 0px; height: 0px; display: none; visibility: hidden;"></div></body></html>
